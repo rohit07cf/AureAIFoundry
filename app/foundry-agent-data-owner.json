@@ -1,0 +1,14 @@
+{
+  "Name": "Foundry Agent Data Owner",
+  "Description": "Allows read/write access to AI Services agents",
+  "Actions": [
+    "Microsoft.CognitiveServices/accounts/AIServices/agents/read",
+    "Microsoft.CognitiveServices/accounts/AIServices/agents/write",
+    "Microsoft.CognitiveServices/accounts/AIServices/agents/run/action",
+    "Microsoft.CognitiveServices/accounts/AIServices/agents/delete"
+  ],
+  "NotActions": [],
+  "AssignableScopes": [
+    "/subscriptions/dc4bb558-f992-4bba-bcd9-fe1f4e55b8f2/resourceGroups/rg-rohitgoswamip-4544_ai/providers/Microsoft.CognitiveServices/accounts/ai-rohitgoswamip4800ai705378660516"
+  ]
+}
